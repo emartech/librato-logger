@@ -1,0 +1,27 @@
+{
+  "env": {
+    "es6": true,
+    "node": true,
+    "mocha": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "extends": [
+    "emarsys"
+  ],
+  "rules": {},
+  "overrides": [
+    {
+      "files": ["*.spec.js"],
+      "globals": {
+        "expect": true,
+        "sinon": true,
+        "sinonSandbox": true
+      },
+      "rules": {
+        "no-unused-expressions": "off"
+      }
+    }
+  ]
+}

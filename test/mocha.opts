@@ -1,0 +1,4 @@
+--reporter dot
+--colors
+--exit
+--file test/test-setup.js
