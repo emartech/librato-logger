@@ -25,6 +25,7 @@
     "npm": ">= 6.4.0"
   },
   "dependencies": {
+    "@emartech/json-logger": "3.1.0",
     "librato-node": "5.0.3",
     "uuid": "3.3.2"
   },
